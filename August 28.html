@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="file:///Users/paulvierthaler/revealsetup/paul.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>CHIN 303: Warriors, Lovers, and Bandits</h1>
+					<p>Mondays, Wednesdays 2 - 3:20</p></section>
+				<section><h2>Class Intro</h2>
+				<p class="fragment">Myself</p>
+				<p class='fragment'>Yourselves</p>
+				<p class='fragment'>Syllabus/Expectations</p></section>
+				<section><h2>Paul Vierthaler</h2>
+				<p>Assistant Professor of Chinese Studies</p>
+				<p class="fragment">Washington Hall 234</p>
+				<p class="fragment">Office Phone: (757) 221-3142</p>
+				<p class="fragment">pavierthaler@wm.edu</p></section>
+				<section>
+				<h2>About me</h2>
+				<p class="fragment">Brand new at William & Mary</p>
+				<p class="fragment">2016-2019 Assistant Professor of Digital Humanities at Leiden University</p>
+				<p class="fragment">Postdocs at Boston College and Harvard</p>
+				<p class="fragment">PhD in East Asian Languages and Literatures from Yale, MA in Asian Studies from Yale, BA in Chinese and PoliSci from University of Kansas</p></section>
+				</section>
+				<section><h2>Introductions</h2>
+				<p>Name, major (or interests if you don't know yet)</p></section>
+				<section><h2>Syllabus</h2></section>
+				<section><h2>Participation</h2></section>
+				<section><h2>Writing Assignments</h2></section>
+				<section><h2>Presentation</h2></section>
+				<section><h2>Final Paper</h2></section>
+				<section><h2>Class Wiki</h2></section>
+				<section><h2>Office Hours</h2>
+				<p>10-12:30 Tuesdays and by appointment</p></section>
+				<section><h2>Pronunciation and Romanization Systems</h2>
+				<a href='https://libraries.indiana.edu/chinese-studies-pinyin-wade-giles-conversion-table'>Pinyin and Wade Giles</a></section>
+				<section><h2>The Books</h2>
+				<aside class="notes">We will go fairly deep into the history of these books, but I'll introduce them very quickly today</aside></section>
+				
+				<section><h2>Romance of the Three Kingdoms</h2>
+					<h2>三國演義</h2>
+				<aside class="notes">Ostensibly by Luo Guanzhong, this was first published in the late 14th century and is generally considered the first of the great Ming novels. This is a fictionalization of the history of the Three Kingdoms period, in the immediate aftermath of the fall of the Han dynasty</aside></section>
+				<section><h2>Journey to the West</h2>
+				<h2>西遊記</h2>
+				<aside class="notes">Written by Wu Chengen in the 16th century, this is similar to the Three Kingdoms in that it is a fictionalization of actual historical events. It tells the tale of the Tang dynasty monk Xuanzang (called Tang Sanzang in the story) as he travelled to India to retrieve Buddhist Sutras</aside></section>
+				<section><h2>The Outlaws of the Marsh</h2>
+				<h2>水滸傳</h2><aside class="notes">By Shi Nai'an (some people claim Luo Guanzhong had a hand in the authorship. This is the story of a collection of Song dynasty bandits who for one reason or another were sent to the Liangshan marshes for all sorts of wacky crimes. Song Jiang becomes their leader and they get into all sorts of predicaments, but eventually (in some versions of the story) rescue the Song government. Unlike the previous two, this takes historical peopels names but is not really based on any specific events.</aside></section>
+				<section><h2>Story of the Western Wing</h2>
+				<h2>西廂記</h2><aside class="notes">This is a big shift for us in terms of the style of the works, but I wanted to talk about this because it is one of the most important plays in Yuan China, and exerted extreme influence on later culture. It is a play by Wang Shifu Tells the story of love between Zhang Shen and Cui Yingying. It is based on a earlier Tang dynasty short story, which we will be looking at it class</aside></section>
+				<section><h2>For Monday</h2>
+				<p>Romance of the Three Kingdoms: Skim first 20 chapters. Closely read chapters 1 and 5</p>
+				<p>The Biography of Hua T'o</p></section>
+				<section><h2>Office Hours</h2>
+				<p>Tuesdays 10 - 12:30</p>
+				<p>pavierthaler@wm.edu</p></section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				],
+				// Display presentation control arrows
+	controls: true,
+
+	// Help the user learn the controls by providing hints, for example by
+	// bouncing the down arrow when they first encounter a vertical slide
+	controlsTutorial: false,
+
+	// Determines where controls appear, "edges" or "bottom-right"
+	controlsLayout: 'bottom-right',
+
+	// Visibility rule for backwards navigation arrows; "faded", "hidden"
+	// or "visible"
+	controlsBackArrows: 'faded',
+
+	// Display a presentation progress bar
+	progress: false,
+
+	// Display the page number of the current slide
+	slideNumber: false,
+
+	// Add the current slide number to the URL hash so that reloading the
+	// page/copying the URL will return you to the same slide
+	hash: true,
+
+	// Push each slide change to the browser history. Implies `hash: true`
+	history: false,
+
+	// Enable keyboard shortcuts for navigation
+	keyboard: true,
+
+	// Enable the slide overview mode
+	overview: true,
+
+	// Vertical centering of slides
+	center: true,
+
+	// Enables touch navigation on devices with touch input
+	touch: true,
+
+	// Loop the presentation
+	loop: false,
+
+	// Change the presentation direction to be RTL
+	rtl: false,
+
+	// See https://github.com/hakimel/reveal.js/#navigation-mode
+	navigationMode: 'default',
+
+	// Randomizes the order of slides each time the presentation loads
+	shuffle: false,
+
+	// Turns fragments on and off globally
+	fragments: true,
+
+	// Flags whether to include the current fragment in the URL,
+	// so that reloading brings you to the same fragment position
+	fragmentInURL: false,
+
+	// Flags if the presentation is running in an embedded mode,
+	// i.e. contained within a limited portion of the screen
+	embedded: false,
+
+	// Flags if we should show a help overlay when the questionmark
+	// key is pressed
+	help: true,
+
+	// Flags if speaker notes should be visible to all viewers
+	showNotes: false,
+
+	// Global override for autoplaying embedded media (video/audio/iframe)
+	// - null: Media will only autoplay if data-autoplay is present
+	// - true: All media will autoplay, regardless of individual setting
+	// - false: No media will autoplay, regardless of individual setting
+	autoPlayMedia: null,
+
+	// Global override for preloading lazy-loaded iframes
+	// - null: Iframes with data-src AND data-preload will be loaded when within
+	//   the viewDistance, iframes with only data-src will be loaded when visible
+	// - true: All iframes with data-src will be loaded when within the viewDistance
+	// - false: All iframes with data-src will be loaded only when visible
+	preloadIframes: null,
+
+	// Number of milliseconds between automatically proceeding to the
+	// next slide, disabled when set to 0, this value can be overwritten
+	// by using a data-autoslide attribute on your slides
+	autoSlide: 0,
+
+	// Stop auto-sliding after user input
+	autoSlideStoppable: true,
+
+	// Use this method for navigation when auto-sliding
+	autoSlideMethod: Reveal.navigateNext,
+
+	// Specify the average time in seconds that you think you will spend
+	// presenting each slide. This is used to show a pacing timer in the
+	// speaker view
+	defaultTiming: 120,
+
+	// Enable slide navigation via mouse wheel
+	mouseWheel: false,
+
+	// Hide cursor if inactive
+	hideInactiveCursor: true,
+
+	// Time before the cursor is hidden (in ms)
+	hideCursorTime: 2000,
+
+	// Hides the address bar on mobile devices
+	hideAddressBar: true,
+
+	// Opens links in an iframe preview overlay
+	// Add `data-preview-link` and `data-preview-link="false"` to customise each link
+	// individually
+	previewLinks: false,
+
+	// Transition style
+	transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+	// Transition speed
+	transitionSpeed: 'fast', // default/fast/slow
+
+	// Transition style for full page slide backgrounds
+	backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+	// Number of slides away from the current that are visible
+	viewDistance: 3,
+
+	// Parallax background image
+	parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+	// Parallax background size
+	parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+	// Number of pixels to move the parallax background per slide
+	// - Calculated automatically unless specified
+	// - Set to 0 to disable movement along an axis
+	parallaxBackgroundHorizontal: null,
+	parallaxBackgroundVertical: null,
+
+	// The display mode that will be used to show slides
+	display: 'block'
+			});
+		</script>
+	</body>
+</html>
