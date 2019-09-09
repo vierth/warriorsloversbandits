@@ -5,3 +5,5 @@ This repository will contain the lectures for my CHIN 303 class "Warriors, Lover
 [September 2](https://vierth.github.io/warriorsloversbandits/September%202.html)
 
 [September 4](https://vierth.github.io/warriorsloversbandits/September%204.html)
+
+[September 9](https://vierth.github.io/warriorsloversbandits/September%209.html)
